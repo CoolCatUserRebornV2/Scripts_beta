@@ -1,5 +1,0 @@
-local camera = workspace.CurrentCamera
-local head = game.Players.LocalPlayer.Character:WaitForChild("Head")
-
-camera.CameraSubject = head
-camera.CameraType = Enum.CameraType.Follow
